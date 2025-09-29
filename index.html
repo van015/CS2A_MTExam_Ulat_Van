@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Site</title>
+    <link rel="stylesheet" href="/CS2A_MTExam_Ulat_Van/css/style.css">
+    <script src="https://kit.fontawesome.com/b25cc54810.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <header>
+        <nav class="navs">
+            <h1 class="heads">Ilocos Region</h1>
+            <ul class="nav-icon">
+                <li class="navcent"><a href="index.html"> Home</i></a></li>
+                <li class="navcent"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="heroimg">
+        <div class="herotxt">
+            <img src="/CS2A_MTExam_Ulat_Van/assets/IlocosSur.jpeg" alt="Ilocos Sur" class="Ilocos Sur" width="980" height="600">
+            <h1>WELCOME TO ILOCOS SUR</h1>
+              <p>Mabuhay! Welcome to Ilocos Sur.
+               Discover the Heritage Heart of the Philippines. Explore the centuries old spanish towns, enjoy thrilling adventures, and taste authentic ilocano cuisine.</p> 
+         </div>
+    </div>
+
+    <section>
+<section class="features">
+    <div class="head-text">
+        <h1>Landmarks of Tourist Spots in Ilocos Sur</h1>
+    </div>
+    <div class="vids">
+        <div class="feat-vid">
+            <video controls mute src="/CS2A_MTExam_Ulat_Van/assets/CalleCrisologo.mp4"></video>
+            <h4>Calle Crisologo</h4>
+            <a href="#calle"><button>Learn More <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+        <div class="feat-vid">
+            <video controls mute src="/CS2A_MTExam_Ulat_Van/assets/BantayBellTower.mp4"></video>
+            <h4>Bantay Bell Tower</h4>
+            <a href="#bantay"><button>Learn More <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+        <div class="feat-vid">
+            <video controls mute src="/CS2A_MTExam_Ulat_Van/assets/PinsalFalls.mp4"></video>
+            <h4>Pinsal Falls</h4>
+            <a href="#pinsal"><button>Learn More <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+    </div>
+    <div class="feature1">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/CalleCrisologo.jpg" alt="Calle Crisologo" class="calle" width="620" height="500">
+        <div class="feature-info">
+            <h3 id="calle">Calle Crisologo</h3>
+            <h5><i class="fa-solid fa-location-dot"></i> Vigan City, Ilocos Sur</h5>
+            <p>
+Calle Crisologo is a famous cobblestone street in Vigan City, Philippines, renowned for its remarkably well-preserved Spanish colonial architecture and ancestral houses.
+            </p>
+            <p class="hashtags">#CalleCrisologo #ViganHeritage #IlocosSur #HistoricVigan
+              #SpanishColonial
+        </div>
+        </div>
+        <div class="feature1">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/BellTower.jpg" alt="Bantay Bell Tower" class="Bantay" width="620" height="500">
+           <div class="feature-info">
+            <h3 id="bantay">Bantay Bell Tower</h3>
+            <h5><i class="fa-solid fa-location-dot"></i> Bantay, Ilocos Sur</h5>
+            <p>
+                This is an historic red-brick watchtower built in 1591, located on a hill near Vigan City. The tower's name (bantay means "to guard") comes from its original military use as a lookout against invaders. Today, it serves as the belfry for the adjacent St. Augustine Church and offers panoramic views.
+            </p>
+            <p class="hashtags">#BantayBellTower #ViganView #ViganBelfry #TravelIlocos #HeritageSpot</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="features">
+    <div class="feature1">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/PinsalFalls.jpeg" alt="Pinsal Falls" class="pinsal">
+        <div class="feature-info">
+            <h3 id="pinsal">Pinsal Falls</h3>
+            <h5><i class="fa-solid fa-location-dot"></i> Pinsal, Ilocos Sur</h5>
+            <p>
+This is the largest waterfall in the Ilocos Region, known for its 85-foot cascade and large, deep natural pools. It is also famous in local Ilocano mythology for having a pool that is said to be the footprint of the giant Angalo.
+            </p>
+            <p class="hashtags">#PinsalFalls #IlocosSurAdventures #NatureEscape #HiddenGemPH #TugotNiAngalo</p>
+        </div>
+    </div>
+</section>
+
+<section class="products">
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/ViganLongganisa.jpg" alt="">
+        <h4> Vigan longganisa</h4>
+        <p class="descitm">The garlicky, salty-sour native pork sausage. The classic Ilocos Sur pasalubong.</p>
+        <p class="price">Price: ₱120</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/Bagnet.jpeg"
+        >
+        <h4>Bagnet</h4>
+        <p class="descitm">The deep-fried, crispy pork belly, a signature Ilocano delicacy. Often vacuum-sealed and ready for re-frying.</p>
+        <p class="price">Price: ₱250 </p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/Kalamay.jpeg" alt="">
+        <h4>Kalamay</h4>
+        <p class="descitm">Kalamay is a traditional Filipino sweet and sticky delicacy made from ground glutinous rice (malagkit), coconut milk, and brown sugar.</p>
+        <p class="price">Price: ₱100</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/Buri.jpeg" alt="">
+        <h4>Buri</h4>
+        <p class="descitm">Buri weaving is a traditional Filipino craft that uses the leaves and fibers of the Buri Palm (Corypha elata) to create various handcrafted items.</p>
+        <p class="price">Price: ₱300</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/Ilocos Empanada.jpeg" alt="">
+        <h4>Ilocos Empanada</h4>
+        <p class="descitm"> Ilocos Empanada is a bright orange and crispy Ilocos delicacy filled with longganisa, egg, and vegetables.</p>
+        <p class="price">Price: ₱60</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/Etag.jpeg" alt="">
+        <h4>Etag</h4>
+        <p class="descitm">Etag is a traditional Filipino preserved meat product, salted and smoked, often described as the local version of smoked ham or bacon</p>
+        <p class="price">Price: ₱400</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/Chichacorn.jpeg" alt="">
+        <h4>Chichacorn</h4>
+        <p class="descitm">A crunchy snack made from deep-fried, semi-popped glutinous corn kernels, often available in various flavors like garlic, cheese, and spicy.</p>
+        <p class="price">Price: ₱100</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/Labtang.jpeg" alt="">
+        <h4>Labtang</h4>
+        <p class="descitm">Labtang crafts are handmade bamboo products, showcasing local artistry and durability.</p>
+        <p class="price">Price: ₱300</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/SigayCoffee.jpeg" alt="">
+        <h4>Sigay Coffee</h4>
+        <p class="descitm">Sigay Coffee is a rich and aromatic brew from highlands, known for its bold flavor.</p>
+        <p class="price">Price: ₱180</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/Sinait.jpg" alt="">
+        <h4>Sinait Garlic</h4>
+        <p class="descitm">Sinait Garlic Products are famous for their strong aroma and flavor, often used as condiments or seasoning.
+        <p class="price">Price: ₱150</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/SukangIloco.jpg" alt="">
+        <h4>Sukang Iloco</h4>
+        <p class="descitm">Sukang Iloko (Ilocos Vinegar): A strong, dark, all-natural cane vinegar made from fermented sugarcane juice (basi). It is the preferred dipping sauce for Bagnet and Empanada.</p>
+        <p class="price">Price: ₱100</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="item">
+        <img src="/CS2A_MTExam_Ulat_Van/assets/bibingka.jpg" />
+        <h4>Royal Bibingka</h4>
+        <p class="descitm">Royal Bibingka</p>A soft, chewy, sticky rice cake (made from glutinous rice flour) that is topped with melted cheese and typically baked in small, circular molds.
+        <p class="price">Price: ₱130</p>
+        <div class="buttongrp">
+            <button id="add" onclick="addItem()"><i class="fa-solid fa-cart-plus"></i></button>
+            <button class="Remove" id="remove" onclick="removeItem()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>   
+</section>
+<script src="/CS2A_MTExam_Ulat_Van/js/script.js"></script>
+<footer>
+    <h3>Developed by:Van Remlee Ulat</h3>
+</footer>
+</body>
+</html>
